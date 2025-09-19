@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О сервере - Fox Smp</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Навигация -->
+  <nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">🦊 Fox Smp</a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Главная</a>
+        <a href="about.html" class="nav-link active">Cервер</a>
+        <a href="guides.html" class="nav-link">Гайды</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- О сервере -->
+  <section id="about">
+    <h1>О НАШЕМ СЕРВЕРЕ</h1>
+    
+    <div class="content-section">
+      <h2>ИСТОРИЯ СЕРВЕРА</h2>
+      <p>Предшественник Fox Smp ( если точнее то ElPrimoCraft ) был основан 24 февраля 2022 году игроком под ником _0_Egorik_0_  для того чтобы вместе со своими однокласнниками и друзьями вместе играть в замечательную игру Minecraft. За это время сервер вырос из небольшой группы друзей в активное сообщество из более чем 200 зарегистрированных игроков.</p>
+      <p>Наш сервер сочетает в себе ванильный геймплей с удобными модами для лучшего опыта игры. А также совмещает старые улучшенные механники для баланса игры.</p>
+    </div>
+
+    <div class="content-section">
+      <h2>МОДЫ НА СЕРВЕРЕ</h2>
+      <div class="mods-grid">
+        <div class="mod-card">
+          <div class="mod-icon">🔊</div>
+          <h3>Plasmo Voice</h3>
+          <p>Голосовой чат для общения с другими игроками в реальном времени</p>
+        </div>
+        <div class="mod-card">
+          <div class="mod-icon">🎭</div>
+          <h3>EmotesCraft</h3>
+          <p>Эмоции и анимации персонажа для выражения чувств</p>
+        </div>
+        <div class="mod-card">
+          <div class="mod-icon">⚡</div>
+          <h3>FlectonePulse</h3>
+          <p>Основной плагин сервера с множеством функций</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-section">
+      <h2>ПРАВИЛА СЕРВЕРА</h2>
+      <ul class="guide-steps">
+        <li>Уважайте других игроков и администрацию</li>
+        <li>Запрещено использование читов и хаков</li>
+        <li>Не разрушайте чужие постройки без разрешения</li>
+        <li>Запрещено использование багов игры в корыстных целях</li>
+        <li>Соблюдайте общепринятые нормы поведения</li>
+        <li>Не спамьте и не флудите в чате</li>
+        <li>Обязательная регистрация на сервере</li>
+      </ul>
+    </div>
+
+    <div class="content-section">
+      <h2>НАША КОМАНДА</h2>
+      <div class="features">
+        <div class="feature-card">
+          <div class="feature-icon">👑</div>
+          <h3>_0_Egorik_0_</h3>
+          <p>Создатель</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>POHUyou</h3>
+          <p>Куратор</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎉</div>
+          <h3>4exlik</h3>
+          <p>Ивент-менеджер</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 Fox Smp | Сделано с ❤️ для Minecraft сообщества</p>
+      <div class="footer-links">
+        <a href="index.html">Главная</a>
+        <a href="about.html">Сервер</a>
+        <a href="guides.html">Гайды</a>
+      </div>
+      <p>support@fox-smp.com</p>
+    </div>
+  </footer>
+
+  <!-- Аудио плеер -->
+  <div id="music-player">
+    <audio id="background-music" loop>
+      <source src="music.mp3" type="audio/mpeg">
+      Ваш браузер не поддерживает аудио элемент.
+    </audio>
+    <div class="player-controls">
+      <button id="music-toggle">▶️</button>
+      <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.15">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
